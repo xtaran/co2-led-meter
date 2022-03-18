@@ -22,10 +22,10 @@ following hardware components:
   * the [Pimoroni Breakout Garden Mini (I2C)
 	pHAT](https://shop.pimoroni.com/products/breakout-garden-mini-i2c),
 
-  * the [Breakout Garden Mini (I2C+SPI)
+  * the [Pimoroni Breakout Garden Mini (I2C+SPI)
 	pHAT](https://shop.pimoroni.com/products/breakout-garden-mini-i2c-spi), or
 
-  * the bigger [Breakout Garden
+  * the bigger [Pimoroni Breakout Garden
 	HAT](https://shop.pimoroni.com/products/breakout-garden-hat).
 
 * Optionally the [Waveshare Raspberry Pi 400 GPIO Header
