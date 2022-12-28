@@ -1,6 +1,9 @@
 CO₂ LED Meter
 =============
 
+![Raspberry Pi Zero based CO₂ LED Meter](images/co2-led-meter-zero.jpg)
+![Raspberry Pi 2 based CO₂ LED Meter](images/co2-led-meter-pi2.jpg)
+
 This is the (rather trivial) code for a simple LED-based CO₂ light
 meter (more or less a continuous CO₂ "traffic light") based on the
 following hardware components:
