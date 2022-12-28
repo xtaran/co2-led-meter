@@ -6,9 +6,12 @@ meter (more or less a continuous CO₂ "traffic light") based on the
 following hardware components:
 
 * A [Raspberry Pi](https://www.raspberrypi.com/) or similar single
-  board computer (SBC) with a 40-pin GPIO bar. In my case I used an
-  older Raspberry Pi 2B with an matte-black Pibow Midnight (Coupé)
-  case which I bought in 2017 from Pimoroni.
+  board computer (SBC) with a 40-pin GPIO bar. In my case I first used
+  an older Raspberry Pi 2B with an matte-black Pibow Midnight (Coupé)
+  case which I bought in 2017 from Pimoroni. Later I used a Raspberry
+  Pi Zero H with a [8086 Solderless Zero
+  Dongle](https://shop.pimoroni.com/products/solderless-zero-dongle-for-raspberry-pi-zero)
+  to be able to use it like a USB stick.
 
 * The [Pimoroni LED Shim](https://shop.pimoroni.com/products/led-shim)
   as LED bar.
@@ -28,12 +31,24 @@ following hardware components:
   * the bigger [Pimoroni Breakout Garden
 	HAT](https://shop.pimoroni.com/products/breakout-garden-hat).
 
-* Optionally the [Waveshare Raspberry Pi 400 GPIO Header
+* Optionally, if used with a fullsize Raspberry Pi, the [Waveshare
+  Raspberry Pi 400 GPIO Header
   Adapter](https://www.waveshare.com/pi400-gpio-adapter-a.htm) to on
   the one hand turn the pHAT or HAT vertical (so I don't have to setup
   the Raspberry Pi vertically) and on the other hand allow to mount
   the LED Shim even if a case is used which encloses the GPIO pins to
   some height.
+
+* Optionally, if used with a Raspberry Pi Zero, either
+
+  * the more recent [Solderless Zero
+    Dongle](https://shop.pimoroni.com/products/solderless-zero-dongle-for-raspberry-pi-zero)
+    by [8086.net](https://8086.net/products), or
+
+  * the original [ZeroStem](https://zerostem.io/) which requires some
+    soldering, but is more compact and still allows to attach a
+    keyboard. (Also [available at
+    e.g. Pimoroni](https://shop.pimoroni.com/products/zero-stem-usb-otg-connector).)
 
 
 Code Base
